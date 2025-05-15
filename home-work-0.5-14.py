@@ -27,7 +27,7 @@ while True:
         id+=1
         all_list.append(dict1)
         print('-'*20)
-        print('new task added successfully')
+        print('new task added successfully ')
     if n == 2:
         for i in all_list:
             print(f"""
