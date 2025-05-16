@@ -70,7 +70,7 @@ during  --> {i['during']}
         if b:
             print('id ', id, 'not found')
     if n == 5:
-        l=input('are you sure you want to exit? (y/n) ')
+        l=input('are you sure you want to exit? y/n ')
         if l == 'y' or l == 'Y' or l == 'yes' or l == 'YES':
             print('thank you for using this program')
             break
