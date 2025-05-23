@@ -93,7 +93,8 @@
 
 # def outer(n):
 #     def inner(a):
-#         return a * (1 - n / 100)
+#           res = a*n/100
+#           return a-res
 #     return inner
 # obj1 = outer(10)
 # print(obj1(200))
