@@ -216,7 +216,7 @@ total     --> {mx['price'] * mx['quan']}
 def min_tot():
     mn = menu[0]
     for i in menu:
-        if i['price'] * i['quan'] > mn['price'] * mn['quan']:
+        if i['price'] * i['quan'] < mn['price'] * mn['quan']:
             mn = i
     print()
     print('-'*30)
